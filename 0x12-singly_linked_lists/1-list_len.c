@@ -7,12 +7,13 @@
 
 size_t list_len(const list_t *h)
 {
-	size_t nel;
+size_t nel;
 
-	nel = 0;
-	while (h != NULL)
-	{
-		h = h->next;
-		nel++;
-	}
-	return (nel);
+nel = 0;
+while (h != NULL)
+{
+h = h->next;
+nel++;
+}
+return (nel);
+}
